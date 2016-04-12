@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <meta charset="utf-8" />
+        <title>Sárkányharcos</title>
+        <link link rel="stylesheet" href="styleSheet.css" />
+    </head>
+
+    <body>
+        
+      <p>
+          <b>Score:  </b><span id="score"></span>
+           <b>Effect:  </b><span id="effect"></span>
+      </p>
+      <canvas width="500" height="500" id="canvas"></canvas>
+      <h3>Irányítás</h3>
+      
+      <p>Mozgás: nyilak</p>
+      <p>Újraindítás: r</p>
+      
+      <h3>Beállítások</h3>
+      
+      Szélesség:
+      <input type="text" id="tableWidth" value="10"><br>
+      
+      Magasság:
+      <input type="text" id="tableHeight" value="10"><br>
+      
+      Tereptárgyak száma:
+      <input type="text" id="obstacles" value="2">
+      <br>
+      
+      <button id="apply">Alkalmaz</button>
+      
+      
+      <script src="Snake.js">  </script>
+    </body>
+
+</html>
